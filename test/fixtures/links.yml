@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  url: MyString
+  friendly_name: MyString
+  category: MyString
+
+two:
+  url: MyString
+  friendly_name: MyString
+  category: MyString
