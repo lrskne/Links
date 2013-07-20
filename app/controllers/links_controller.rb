@@ -1,9 +1,10 @@
 class LinksController < ApplicationController
   # GET /links
   # GET /links.json
+  
   def index
-    @links = Link.all
-
+    # 7/19/13 lbe changed this line to the line below @links = Link.all
+    @links = Link.find( :all, :order => "id Desc")
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @links }
